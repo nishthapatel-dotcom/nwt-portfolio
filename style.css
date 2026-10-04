@@ -1,0 +1,129 @@
+/* Custom styling for personal portfolio */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Custom Primary Color */
+.text-primary {
+    color: #0d6efd !important;
+}
+
+.bg-primary {
+    background-color: #0d6efd !important;
+}
+
+/* Navigation */
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* Ensure padding for fixed navbar so sections don't hide behind it */
+section {
+    scroll-margin-top: 76px;
+}
+
+/* Home Section */
+#home {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* About Section */
+.profile-img {
+    border: 5px solid white;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+.about-img-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    height: 420px;
+    background: rgba(13, 110, 253, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/* Cards & Hover Effects */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card .img-wrapper img {
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+}
+
+.project-card:hover .img-wrapper img {
+    transform: scale(1.1);
+}
+
+.hover-primary {
+    transition: color 0.3s ease;
+}
+
+.hover-primary:hover {
+    color: #0d6efd !important;
+}
+
+/* Inputs and Forms */
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    border-color: #0d6efd;
+}
+
+/* Footer Social Icons */
+.social-icon {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #0d6efd !important;
+    color: white !important;
+    transform: translateY(-3px);
+}

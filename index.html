@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishta Patel - Personal Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Nishta Patel<span class="text-primary">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="d-flex align-items-center vh-100 bg-light position-relative">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bolder mb-3 text-dark">Hi, I'm <span class="text-primary">Nishta Patel</span></h1>
+            <p class="lead mb-4 text-secondary fs-4">A Passionate Web Developer</p>
+            <div class="d-flex justify-content-center gap-3 mt-4">
+                <a href="#projects" class="btn btn-primary btn-lg rounded-pill px-4 py-2 shadow-sm">View My Work</a>
+                <a href="#contact" class="btn btn-outline-dark btn-lg rounded-pill px-4 py-2 shadow-sm">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-white">
+        <div class="container py-5 mt-4">
+            <div class="row align-items-center">
+                <div class="col-md-5 mb-4 mb-md-0 text-center position-relative">
+                    <div class="about-img-wrapper mx-auto">
+                        <img src="https://ui-avatars.com/api/?name=Nishta+Patel&size=400&background=0D8ABC&color=fff&rounded=true" alt="Nishta Patel" class="img-fluid rounded-circle shadow-lg profile-img">
+                    </div>
+                </div>
+                <div class="col-md-7 ps-md-5">
+                    <h6 class="text-primary fw-bold text-uppercase mb-2">About Me</h6>
+                    <h2 class="fw-bold mb-4 display-6">Who am I?</h2>
+                    <p class="text-muted fs-5 mb-3">Hello! I am Nishta Patel, a web developer who loves building simple and interactive web applications. I enjoy bringing ideas to life in the browser.</p>
+                    <p class="text-muted fs-5 mb-4">My core skills include HTML, CSS, JavaScript, and Bootstrap. I focus on writing clean code and creating responsive layouts that look great on any device.</p>
+                    <div class="d-flex align-items-center gap-3">
+                        <a href="#contact" class="btn btn-dark rounded-pill px-4 py-2">Let's Talk <i class="bi bi-chat-dots ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container py-5 mt-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase mb-2">What I Do</h6>
+                <h2 class="fw-bold display-6">My Skills</h2>
+            </div>
+            <div class="row g-4 text-center justify-content-center">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 border-0 shadow-sm p-4 hover-card">
+                        <div class="icon-box mx-auto mb-3 bg-primary-subtle text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="bi bi-filetype-html fs-1"></i>
+                        </div>
+                        <h4 class="card-title fw-bold">HTML & CSS</h4>
+                        <p class="card-text text-muted">Building responsive and structured web pages from scratch.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 border-0 shadow-sm p-4 hover-card">
+                        <div class="icon-box mx-auto mb-3 bg-info-subtle text-info rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="bi bi-bootstrap fs-1" style="color: #7952b3;"></i>
+                        </div>
+                        <h4 class="card-title fw-bold">Bootstrap</h4>
+                        <p class="card-text text-muted">Using Bootstrap grids and components for fast mobile-friendly designs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 border-0 shadow-sm p-4 hover-card">
+                        <div class="icon-box mx-auto mb-3 bg-warning-subtle text-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="bi bi-filetype-js fs-1"></i>
+                        </div>
+                        <h4 class="card-title fw-bold">JavaScript</h4>
+                        <p class="card-text text-muted">Creating interactive features and handling basic logic in applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-white">
+        <div class="container py-5 mt-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase mb-2">Portfolio</h6>
+                <h2 class="fw-bold display-6">Simple Projects</h2>
+            </div>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm project-card overflow-hidden" data-bs-toggle="modal" data-bs-target="#project1Modal" style="cursor: pointer;">
+                        <div class="img-wrapper overflow-hidden bg-light text-center py-5">
+                            <i class="bi bi-calculator display-1 text-secondary"></i>
+                        </div>
+                        <div class="card-body p-4 text-center">
+                            <span class="badge bg-primary-subtle text-primary mb-2">HTML/CSS/JS</span>
+                            <h5 class="card-title fw-bold">Simple Calculator</h5>
+                            <p class="card-text text-muted mb-4">A basic web calculator that can perform addition, subtraction, multiplication, and division.</p>
+                            <span class="text-decoration-none fw-bold text-primary hover-primary">Open Project <i class="bi bi-box-arrow-up-right ms-1"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm project-card overflow-hidden" data-bs-toggle="modal" data-bs-target="#project2Modal" style="cursor: pointer;">
+                        <div class="img-wrapper overflow-hidden bg-light text-center py-5">
+                            <i class="bi bi-card-checklist display-1 text-secondary"></i>
+                        </div>
+                        <div class="card-body p-4 text-center">
+                            <span class="badge bg-warning-subtle text-warning mb-2">JavaScript</span>
+                            <h5 class="card-title fw-bold">To-Do List App</h5>
+                            <p class="card-text text-muted mb-4">An interactive to-do list where users can add, delete, and mark tasks as complete.</p>
+                            <span class="text-decoration-none fw-bold text-primary hover-primary">Open Project <i class="bi bi-box-arrow-up-right ms-1"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm project-card overflow-hidden" data-bs-toggle="modal" data-bs-target="#project3Modal" style="cursor: pointer;">
+                        <div class="img-wrapper overflow-hidden bg-light text-center py-5">
+                            <i class="bi bi-cloud-sun display-1 text-secondary"></i>
+                        </div>
+                        <div class="card-body p-4 text-center">
+                            <span class="badge bg-info-subtle text-info mb-2">API</span>
+                            <h5 class="card-title fw-bold">Weather Checker</h5>
+                            <p class="card-text text-muted mb-4">A simple app that displays current weather conditions based on a predefined city.</p>
+                            <span class="text-decoration-none fw-bold text-primary hover-primary">Open Project <i class="bi bi-box-arrow-up-right ms-1"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container py-5 mt-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase mb-2">Contact</h6>
+                <h2 class="fw-bold display-6">Get In Touch</h2>
+                <p class="text-muted mt-2">Have a question? Fill out the form below and I will get back to you.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="card border-0 shadow-lg p-md-5 p-4 rounded-4">
+                        <form id="contactForm" class="needs-validation" novalidate>
+                            <div class="row mb-4">
+                                <div class="col-md-6 mb-4 mb-md-0">
+                                    <label for="name" class="form-label fw-semibold">Your Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control form-control-lg bg-white" id="name" placeholder="John Doe" required minlength="2">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid name (at least 2 characters).
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label fw-semibold">Your Email <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control form-control-lg bg-white" id="email" placeholder="john@example.com" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid email address.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="form-label fw-semibold">Your Message <span class="text-danger">*</span></label>
+                                <textarea class="form-control form-control-lg bg-white" id="message" rows="5" placeholder="How can I help you?" required minlength="10"></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter a message (at least 10 characters).
+                                </div>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button type="submit" class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow w-100 fw-bold">Send Message <i class="bi bi-send ms-2"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h3 class="fw-bold mb-3">Nishta Patel<span class="text-primary">.</span></h3>
+            <p class="text-white-50 mb-4">Building simple and functional websites.</p>
+            <div class="d-flex justify-content-center gap-3 mb-4">
+                <a href="#" class="social-icon bg-white bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none transition" style="width: 45px; height: 45px;">
+                    <i class="bi bi-github fs-5"></i>
+                </a>
+                <a href="#" class="social-icon bg-white bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none transition" style="width: 45px; height: 45px;">
+                    <i class="bi bi-linkedin fs-5"></i>
+                </a>
+            </div>
+            <hr class="border-secondary mb-4">
+            <p class="mb-0 text-white-50">&copy; <span id="year"></span> Nishta Patel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-primary text-white">
+            <h5 class="modal-title fw-bold" id="project1ModalLabel">Simple Calculator</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center py-5">
+            <i class="bi bi-calculator display-1 text-primary mb-3"></i>
+            <h4>Calculator Interface</h4>
+            <p class="text-muted">This is a demonstration of the simple calculator project. In a real app, the functional calculator would be displayed here allowing you to perform basic arithmetic.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="calculator.html" class="btn btn-primary">Open Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-warning text-dark">
+            <h5 class="modal-title fw-bold" id="project2ModalLabel">To-Do List App</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center py-5">
+            <i class="bi bi-card-checklist display-1 text-warning mb-3"></i>
+            <h4>Task Manager</h4>
+            <p class="text-muted">This project allows users to add tasks to a list, check them off, and delete them using JavaScript arrays and the Document Object Model (DOM).</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="todo.html" class="btn btn-warning">Open Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-info text-dark">
+            <h5 class="modal-title fw-bold" id="project3ModalLabel">Weather Checker</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center py-5">
+            <i class="bi bi-cloud-sun display-1 text-info mb-3"></i>
+            <h4>Weather Dashboard</h4>
+            <p class="text-muted">A simple application that fetches simulated weather data from a public API and displays the temperature and conditions clearly to the user.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="weather.html" class="btn btn-info">Open Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
